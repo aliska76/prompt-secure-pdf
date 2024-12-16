@@ -1,0 +1,7 @@
+{"level":"INFO"16.12.2024,"msg":"[server]: Server is running at http://localhost:3000"}
+{"level":30,"time":"2024-12-16T21:52:06.193Z","msg":"[server]: Server is running at http://localhost:3000"}
+{"level":30,"time":"2024-12-16T21:53:13.361Z","appId":"9d36e6ee-0564-41d6-92f9-bf0da89e3682","contentType":"application/json","msg":"Headers received for POST request"}
+{"level":30,"time":"2024-12-16T21:53:13.362Z","containsSecrets":true,"msg":"Sensitive data detection completed"}
+{"level":30,"time":"2024-12-16T21:55:11.773Z","appId":"9d36e6ee-0564-41d6-92f9-bf0da89e3682","contentType":"application/json","msg":"Headers received for POST request"}
+{"level":50,"time":"2024-12-16T21:55:11.774Z","msg":"Invalid or missing prompt in request body"}
+{"level":30,"time":"2024-12-16T21:59:31.882Z","msg":"[server]: Server is running at http://localhost:3000"}

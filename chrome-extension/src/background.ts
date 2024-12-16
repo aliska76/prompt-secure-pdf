@@ -60,7 +60,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 async function processFile(fileContent: string) {
   try {
-    const response = await fetch('https://stg-ps.prompt.security/api/protect', {
+    const response = await fetch('http://localhost:3000', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -83,3 +83,7 @@ async function processFile(fileContent: string) {
     throw new Error('Error during file processing: ' + error)
   }
 }
+
+//'{  "prompt": "This is a sample text that may contain a secret like AKIAIOSFODNN7EXAMPLE"}'
+
+//Invoke-WebRequest -Uri "https://stg-ps.prompt.security/api/protect" -Method POST -Headers '@{"APP-ID" = "9d36e6ee-0564-41d6-92f9-bf0da89e3682", "Content-Type" = "application/json"}' -Body '{"prompt": "Test text for secret detection"}'

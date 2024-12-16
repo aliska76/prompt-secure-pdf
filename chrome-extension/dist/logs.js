@@ -23,15 +23,16 @@ export const logger = pino({
         },
     },
 });
-export const saveLogsToFile = () => {
-    const logContent = logData.join('\n');
-    const blob = new Blob([logContent], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
+export // Function to save logs to a file
+ function saveLogsToFile(logs) {
+    const logBlob = new Blob([logs], { type: 'text/plain' });
+    const logURL = URL.createObjectURL(logBlob);
+    const logDate = new Date().toLocaleDateString().replace(/\//g, '.');
     const filename = `logs/app_${logDate}.log`;
     chrome.downloads.download({
-        url,
-        filename,
-        saveAs: false
+        url: logURL,
+        filename: filename,
+        saveAs: false, // Automatically save the file without prompting the user
     });
     console.log(`Logs saved to file: ${filename}`);
-};
+}
