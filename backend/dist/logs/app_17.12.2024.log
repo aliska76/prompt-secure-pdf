@@ -1,16 +1,3 @@
-{"level":30,"time":"2024-12-16T22:24:54.015Z","msg":"[server]: Server is running at http://localhost:3000"}
-{"level":40,"time":1734388443589,"msg":"kuku"}
-{"level":30,"time":1734388443594,"msg":"[server]: Server is running at http://localhost:3000"}
-{"level":40,"time":1734388790170,"msg":"kuku"}
-{"level":30,"time":1734388790176,"msg":"[server]: Server is running at http://localhost:3000"}
-{"level":40,"time":1734388926094,"msg":"kuku"}
-{"level":30,"time":1734388926099,"msg":"[server]: Server is running at http://localhost:3000"}
-{"level":40,"time":1734388974389,"pid":28324,"hostname":"ISR-PF3EKTQ5","msg":"kuku"}
-{"level":30,"time":1734388974395,"pid":28324,"hostname":"ISR-PF3EKTQ5","msg":"[server]: Server is running at http://localhost:3000"}
-{"level":40,"time":1734389204702,"msg":"kuku"}
-{"level":30,"time":1734389204708,"msg":"[server]: Server is running at http://localhost:3000"}
-{"level":40,"time":"2024-12-16T22:47:13.933Z","msg":"kuku"}
-{"level":30,"time":"2024-12-16T22:47:13.938Z","msg":"[server]: Server is running at http://localhost:3000"}
 {"level":"info","message":"Info log","timestamp":"2024-12-16T22:55:07.879Z"}
 {"level":"warn","message":"Warn log","timestamp":"2024-12-16T22:55:07.880Z"}
 {"level":"error","message":"Error log","timestamp":"2024-12-16T22:55:07.881Z"}
