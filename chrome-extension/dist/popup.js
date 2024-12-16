@@ -1,0 +1,1 @@
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{const t=document.getElementById("log-output");chrome.storage.local.get(["logs"],(e=>{const o=e.logs||[];t&&(t.textContent=o.join("\n"))}))}))})();
