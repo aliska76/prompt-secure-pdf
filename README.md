@@ -26,7 +26,7 @@ This project is a Chrome Extension designed to detect sensitive data (like AWS k
 - npm or yarn: Use npm@10.8.2
 - Chrome Browser: This extension is designed for Chrome.
 
-There two separated projects backend and chrome-extension.
+### There two separated projects backend and chrome-extension.
 
 ### Installation
 Do this in backend and in chrome-extension folders separately!
