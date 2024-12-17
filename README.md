@@ -1,7 +1,6 @@
 
 # PDF Sensitive Data Detector Extension
 ## Description
-
 This project is a Chrome Extension designed to detect sensitive data (like AWS keys, email addresses, etc.) in PDF files before they are uploaded. The extension processes PDF files and checks for sensitive data by sending the files to a server-side API. If sensitive data is detected, the user is alerted and prevented from uploading the file. If no sensitive data is found, the user can proceed with the file upload.
 
 ## Features
@@ -11,7 +10,6 @@ This project is a Chrome Extension designed to detect sensitive data (like AWS k
 - File Removal on Alert: If sensitive data is detected, the file input will be cleared, preventing the file from being uploaded.
 
 ## Technologies Used
-
 - Chrome Extension API: For interacting with the browser's functionality.
 - JavaScript / TypeScript: For the main logic of the extension.
 - Node.js / Express: For the server-side functionality to handle PDF text extraction and sensitive data detection.
@@ -24,7 +22,6 @@ This project is a Chrome Extension designed to detect sensitive data (like AWS k
 
 ## Getting Started
 ### Prerequisites
-
 - Node.js (v20.18.1): Make sure you have Node.js installed on your machine.
 - npm or yarn: Use npm@10.8.2
 - Chrome Browser: This extension is designed for Chrome.
@@ -39,7 +36,6 @@ $ npm install
 ```
 
 ## Compile and run the backend
-
 ```bash
 $ npm run build
 ```
@@ -51,19 +47,16 @@ $ npm run start
 The server should now be running at http://localhost:3000
 
 ## Compile and run the chrome-extension
-
 ```bash
 $ npx webpack
 ```
 
 ## Load the Chrome Extension:
-
 - Open chrome://extensions/ in your browser.
 - Enable Developer mode.
 - Click Load unpacked and select the extension directory (chrome-extension/dist folder).
 
 ## Use the Extension:
-
 - Upload a PDF file to sites like ChatGPT, Gemini, everask.ai and etc. to check if it contains sensitive data.
 - If sensitive data is found, an alert will be shown, and the file will be removed from the input field.
 
