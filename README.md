@@ -1,3 +1,4 @@
+![Application Logo](https://play-lh.googleusercontent.com/5-ek5JhJrdrXMv20nYoBbJwDDFwiRx1rO8Yteee0wZ1xEN8c96RTPyJiosMhtWqZpZo=w240-h480-rw)
 
 # PDF Sensitive Data Detector Extension
 ## Description
@@ -29,7 +30,7 @@ This project is a Chrome Extension designed to detect sensitive data (like AWS k
 ### There two separated projects backend and chrome-extension.
 
 ## Installation
-1. ### Install dependencies:Do this in /backend and in /chrome-extension folders separately!
+1. ### Install dependencies:Do this in `backend` and in `chrome-extension` folders separately!
 
 ```bash
 $ npm install
@@ -61,7 +62,7 @@ $ npx webpack
 - If sensitive data is found, an alert will be shown, and the file will be removed from the input field.
 
 ## Configuration
-- Server URL: Ensure the server is running on http://localhost:3000. You can update the server URL in the extension if needed.
+- Server URL: Ensure the server is running on `http://localhost:3000`. You can update the server URL in the extension if needed.
 - Sensitive Data Detection: The current detection logic checks for common sensitive data patterns such as AWS keys and email addresses. You can modify the processTextForSensitiveData function to add more checks for different types of sensitive data.
 
 ## How It Works
@@ -71,6 +72,7 @@ $ npx webpack
 4. Response Handling: Based on the server's response, the extension either alerts the user and clears the file input or allows the file upload to proceed.
 
 ## Troubleshooting
+- In a root project directory there is two PDF files you can use to check the usage - one with some sensetive data and one with simple text.
 - If the extension doesn't work as expected, check the browser console for any errors.
 - Ensure that the server is running on the correct port (http://localhost:3000).
 - If sensitive data is not detected, check the server logs to see if the text extraction logic is working properly.
