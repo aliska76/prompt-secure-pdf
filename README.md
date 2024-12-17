@@ -28,14 +28,14 @@ This project is a Chrome Extension designed to detect sensitive data (like AWS k
 
 ### There two separated projects backend and chrome-extension.
 
-### Installation
-Do this in backend and in chrome-extension folders separately!
+## Installation
+1. ### Install dependencies:Do this in /backend and in /chrome-extension folders separately!
 
 ```bash
 $ npm install
 ```
 
-## Compile and run the backend
+2. ### Compile and run the backend
 ```bash
 $ npm run build
 ```
@@ -46,7 +46,7 @@ $ npm run start
 
 The server should now be running at http://localhost:3000
 
-## Compile and run the chrome-extension
+3. ### Compile and run the chrome-extension
 ```bash
 $ npx webpack
 ```
@@ -54,7 +54,7 @@ $ npx webpack
 ## Load the Chrome Extension:
 - Open chrome://extensions/ in your browser.
 - Enable Developer mode.
-- Click Load unpacked and select the extension directory (chrome-extension/dist folder).
+- Click Load unpacked and select the extension directory - `chrome-extension/dist` folder.
 
 ## Use the Extension:
 - Upload a PDF file to sites like ChatGPT, Gemini, everask.ai and etc. to check if it contains sensitive data.
