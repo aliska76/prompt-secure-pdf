@@ -32,35 +32,34 @@ This project is a Chrome Extension designed to detect sensitive data (like AWS k
 
 ## Installation
 1. ### Install dependencies:Do this in `backend` and in `chrome-extension` folders separately!
-
-```bash
-$ npm install
-```
+    ```bash
+    $ npm install
+    ```
 
 2. ### Compile and run the backend
-```bash
-$ npm run build
-```
-
-```bash
-$ npm run start
-```
+    ```bash
+    $ npm run build
+    ```
+    and then run:
+    ```bash
+    $ npm run start
+    ```
 
 The server should now be running at http://localhost:3000
 
 3. ### Compile and run the chrome-extension
-```bash
-$ npx webpack
-```
+    ```bash
+    $ npx webpack
+    ```
 
 4. ### Run test in server side
-```bash
-$ npm run test
-```
-or
-```bash
-$ npx jest
-```
+    ```bash
+    $ npm run test
+    ```
+    or
+    ```bash
+    $ npx jest
+    ```
 
 ## Load the Chrome Extension:
 - Open chrome://extensions/ in your browser.
